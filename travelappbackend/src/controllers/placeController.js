@@ -9,7 +9,7 @@ const getPlacesFromOpenAI = async (req, res) => {
       max_tokens: 100,
     }, {
       headers: {
-        'Authorization': `Bearer `,
+        
         'Content-Type': 'application/json'
       }
     });
